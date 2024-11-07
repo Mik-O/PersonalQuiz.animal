@@ -15,7 +15,6 @@
 		A64A9A292CDC815D008159CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64A9A162CDC815D008159CD /* Assets.xcassets */; };
 		A64A9A2A2CDC815D008159CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64A9A192CDC815D008159CD /* LaunchScreen.storyboard */; };
 		A64A9A2B2CDC815D008159CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64A9A1B2CDC815D008159CD /* Main.storyboard */; };
-		A64A9A2C2CDC815D008159CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A64A9A1E2CDC815D008159CD /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		A64A9A182CDC815D008159CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64A9A1A2CDC815D008159CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A64A9A1D2CDC815D008159CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A64A9A1E2CDC815D008159CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A64A9A1F2CDC815D008159CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A64A9A212CDC815D008159CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +61,6 @@
 			children = (
 				A64A9A132CDC815D008159CD /* Answer.swift */,
 				A64A9A142CDC815D008159CD /* Question.swift */,
-				A64A9A1C2CDC815D008159CD /* Storyboards */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -89,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				A64A9A1D2CDC815D008159CD /* AppDelegate.swift */,
-				A64A9A1E2CDC815D008159CD /* Info.plist */,
 				A64A9A1F2CDC815D008159CD /* SceneDelegate.swift */,
 			);
 			path = SuppotingFiles;
@@ -106,6 +102,7 @@
 		A64A9A232CDC815D008159CD /* PersonalQuiz.animal */ = {
 			isa = PBXGroup;
 			children = (
+				A64A9A1C2CDC815D008159CD /* Storyboards */,
 				A64A9A222CDC815D008159CD /* ViewControllers */,
 				A64A9A152CDC815D008159CD /* Models */,
 				A64A9A172CDC815D008159CD /* Resources */,
@@ -178,7 +175,6 @@
 				A64A9A292CDC815D008159CD /* Assets.xcassets in Resources */,
 				A64A9A2A2CDC815D008159CD /* LaunchScreen.storyboard in Resources */,
 				A64A9A2B2CDC815D008159CD /* Main.storyboard in Resources */,
-				A64A9A2C2CDC815D008159CD /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +223,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz.animal/SuppotingFiles/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz.animal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -258,7 +254,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz.animal/SuppotingFiles/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz.animal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
