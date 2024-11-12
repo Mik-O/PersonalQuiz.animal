@@ -42,6 +42,12 @@ class QuestionsViewController: UIViewController {
 
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let resultViewController = segue.destination as? ResultsViewController {
+            resultViewController.answers = answerChosen
+        }
+    }
+    
     @IBAction func singleButtonAnswerPressed(_ sender: UIButton) {
         guard let buttonIndex = singleButtons.firstIndex(of: sender) else { return }
         let currentAnswer = currentAnswers[buttonIndex]
